@@ -1,0 +1,13 @@
+{
+  "name": "sudoku_kernel",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "sudoku_kernel"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}
